@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(130deg, #4bcaa2, #000000);
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: white;
+    border: rgb(255, 255, 255) solid 3px;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+.pri_text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+
+.log {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 29px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+}
+
+.form_group {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form_submit {
+    width: 80%;
+    padding: 50px 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-self: center;
+}
+
+.campo {
+    background-color: white;
+    border: grey solid 2px;
+    border-radius: 8px;
+}
+
+.botao {
+    background: linear-gradient(260deg, #4bcaa2, #1b4437);
+    background-size: 200% 200%;
+    background-position: left;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 12px #2c755e;
+    cursor: pointer;
+    transition: background-position 0.5s ease-out;
+}
+
+.botao:hover {
+    background-position: right;
+    
+    box-shadow: 0 0 22px #4dad8f;
+}
+
+.link {
+    text-decoration: none;
+    color: #507e6f;
+    padding-top: 10px;
+}
+
+p {
+    padding-top: 10px;
+}
