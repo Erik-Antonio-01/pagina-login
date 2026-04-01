@@ -9,6 +9,7 @@
 
 body {
     background: linear-gradient(130deg, #4bcaa2, #000000);
+    color: white;
     height: 100vh;
     display: flex;
     flex-flow: row nowrap;
@@ -18,8 +19,9 @@ body {
 
 article {
     background-color: white;
+    color: black;
     border: rgb(255, 255, 255) solid 3px;
-    width: 450px;
+    width: 50%;
     height: 500px;
     padding: 20px;
     border-radius: 40px;
@@ -84,6 +86,7 @@ input {
     background-size: 200% 200%;
     background-position: left;
     height: 40px;
+    margin-bottom: 10px;
     color: white;
     border: none;
     border-radius: 20px;
@@ -94,7 +97,6 @@ input {
 
 .botao:hover {
     background-position: right;
-    
     box-shadow: 0 0 22px #4dad8f;
 }
 
@@ -102,8 +104,5 @@ input {
     text-decoration: none;
     color: #507e6f;
     padding-top: 10px;
-}
-
-p {
-    padding-top: 10px;
+    width: fit-content;
 }
